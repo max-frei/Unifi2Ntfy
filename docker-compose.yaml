@@ -1,0 +1,9 @@
+services:
+  unifi2ntfy:
+    image: mgaudi/unifi2ntfy:latest
+    environment:
+      - UNTFY_CONTROLLER_USER="ntfy"
+      - UNTFY_CONTROLLER_PW="__CHANGE__secret"
+      - UNTFY_NTFY_URL="__CHANGE__http://ntfy.example.com"
+      - UNTFY_NTFY_USER="__CHANGE__optional"
+      - UNTFY_NTFY_PW="__CHANGE__credentials"
